@@ -6,38 +6,38 @@ app = Flask(__name__)
 def get_courses():
     courses = [
     {
-       "course_name" : "a",
-       "rating" : "b",
-       "department" : "c",
-       "duration" : "d"
+       "course_name" : "Introduction to python programming",
+       "rating" : "2/10",
+       "department" : "Computer science",
+       "duration" : "80 minutes"
     },
     {
 
-       "course_name" : "e",
-       "rating" : "f",
-       "department" : "g",
-       "duration" : "h"
+       "course_name" : "Web development fundamentals",
+       "rating" : "4/10",
+       "department" : "Information technology",
+       "duration" : "100 minutes"
     },
     {
 
-       "course_name" : "i",
-       "rating" : "j",
-       "department" : "k",
-       "duration" : "l"
+       "course_name" : "User experience designer",
+       "rating" : "7/10",
+       "department" : "Development",
+       "duration" : "100 minutes"
     },
     {
 
-       "course_name" : "m",
-       "rating" : "n",
-       "department" : "o",
-       "duration" : "p"
+       "course_name" : "Data scientist",
+       "rating" : "6/10",
+       "department" : "Information technology",
+       "duration" : "120 minutes"
     },
     {
 
-       "course_name" : "q",
-       "rating" : "r",
-       "department" : "s",
-       "duration" : "t"
+       "course_name" : "Web administration",
+       "rating" : "1/10",
+       "department" : "Administration",
+       "duration" : "200 minutes"
     }
 
 ]
